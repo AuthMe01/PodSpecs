@@ -4,7 +4,7 @@
 version=$1
 
 # 定義要生成的 JSON 內容
-json='{"name":"AuthMe","version":"'$version'","summary":"AuthMe framework","description":"AuthMe Framework","homepage":"https://authme.com","license":"BSD","authors":{"AuthMe-Team":"dev@authme.com"},"platforms":{"ios":"11.0"},"source":{"git":"https://github.com/AuthMe01/AuthMe_iOS.git","tag":"'$version'"},"swift_versions":"4.2","ios":{"vendored_frameworks":["AuthMe.xcframework","onnxruntime.xcframework","OpenSSL.xcframework","Algo.xcframework"],"weak_frameworks":["AuthMe","onnxruntime","OpenSSL","Algo"]},"libraries":"c++","swift_version":"4.2"}'
+json='{"name":"AuthMe","version":"'$version'","summary":"AuthMe framework","description":"AuthMe Framework","homepage":"https://authme.com","license":"BSD","authors":{"AuthMe-Team":"dev@authme.com"},"platforms":{"ios":"11.0"},"source":{"git":"https://github.com/AuthMe01/AuthMe_iOS.git","tag":"'$version'"},"swift_versions":"4.2","ios":{"vendored_frameworks":["AuthMe.xcframework","OpenSSL.xcframework","Algo.xcframework"],"weak_frameworks":["AuthMe","OpenSSL","Algo"]},"libraries":"c++","swift_version":"4.2"}'
 
 # 將 JSON 內容輸出到檔案
 echo $json > AuthMe.podspec.json
