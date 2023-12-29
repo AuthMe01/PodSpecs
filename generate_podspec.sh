@@ -12,7 +12,7 @@ rm -rf AuthMe/$version
 mkdir AuthMe/$version
 mv AuthMe.podspec.json AuthMe/$version
 
-json2='{"name":"AuthMeUI","version":"'$version'","summary":"AuthMeUI framework","description":"AuthMeUI Framework","homepage":"https://authme.com","license":"BSD","authors":{"AuthMe-Team":"dev@authme.com"},"platforms":{"ios":"11.0"},"source":{"git":"https://github.com/AuthMe01/AuthMeUI_iOS.git","tag":"'$version'"},"swift_versions":"4.2","ios":{"vendored_frameworks":"AuthMeUI.xcframework"},"dependencies":{"AuthMe":[]},"swift_version":"4.2"}'
+json2='{"name":"AuthMeUI","version":"'$version'","summary":"AuthMeUI framework","description":"AuthMeUI Framework","homepage":"https://authme.com","license":"BSD","authors":{"AuthMe-Team":"dev@authme.com"},"platforms":{"ios":"11.0"},"source":{"git":"https://github.com/AuthMe01/AuthMeUI_iOS.git","tag":"'$version'"},"swift_versions":"4.2","ios":{"vendored_frameworks":"AuthMeUI.xcframework"},"dependencies":{"Lottie": ["~> 4.3"]},"swift_version":"4.2"}'
 
 echo $json2 > AuthMeUI.podspec.json
 rm -rf AuthMeUI/$version
