@@ -5,7 +5,7 @@ version="$1"
 cat <<EOF > AuthmeNFCKit.podspec.json
 {
   "name": "AuthmeNFCKit",
-  "version": "'$version'",
+  "version": "$version",
   "summary": "AuthmeNFCKit framework",
   "description": "AuthmeNFCKit Framework",
   "homepage": "https://authme.com",
@@ -18,7 +18,7 @@ cat <<EOF > AuthmeNFCKit.podspec.json
   },
   "source": {
     "git": "https://github.com/AuthMe01/authme-nfc-ios.git",
-    "tag": "'$version'"
+    "tag": "$version"
   },
   "ios": {
     "vendored_frameworks": "AuthmeNFCKit.xcframework"
