@@ -5,7 +5,7 @@ version="$1"
 cat <<EOF > AuthMeUI.podspec.json
 {
   "name": "AuthMeUI",
-  "version": "'$version'",
+  "version": "$version",
   "summary": "AuthMeUI framework",
   "description": "AuthMeUI Framework",
   "homepage": "https://authme.com",
@@ -18,17 +18,17 @@ cat <<EOF > AuthMeUI.podspec.json
   },
   "source": {
     "git": "https://github.com/AuthMe01/AuthMeUI_iOS.git",
-    "tag": "'$version'"
+    "tag": "$version"
   },
   "ios": {
     "vendored_frameworks": "AuthMeUI.xcframework"
   },
   "dependencies": {
-    "Lottie": [
-      "~> 4.4"
-    ]
+    "lottie-ios": [],
+    "AuthMe": [],
+    "AuthmeNFCKit": []
   },
-  "swift_version": "4.2"
+  "swift_version": "5"
 }
 EOF
 

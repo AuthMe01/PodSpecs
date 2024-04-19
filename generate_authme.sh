@@ -5,7 +5,7 @@ version="$1"
 cat <<EOF > AuthMe.podspec.json
 {
   "name": "AuthMe",
-  "version": "'$version'",
+  "version": "$version",
   "summary": "AuthMe framework",
   "description": "AuthMe Framework",
   "homepage": "https://authme.com",
@@ -18,7 +18,7 @@ cat <<EOF > AuthMe.podspec.json
   },
   "source": {
     "git": "https://github.com/AuthMe01/AuthMe_iOS.git",
-    "tag": "'$version'"
+    "tag": "$version"
   },
   "ios": {
     "vendored_frameworks": [
@@ -33,7 +33,7 @@ cat <<EOF > AuthMe.podspec.json
     ]
   },
   "libraries": "c++",
-  "swift_version": "4.2"
+  "swift_version": "5"
 }
 EOF
 
