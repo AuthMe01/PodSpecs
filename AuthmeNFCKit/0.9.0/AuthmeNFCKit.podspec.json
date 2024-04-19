@@ -1,6 +1,6 @@
 {
   "name": "AuthmeNFCKit",
-  "version": "'0.9.0'",
+  "version": "0.9.0",
   "summary": "AuthmeNFCKit framework",
   "description": "AuthmeNFCKit Framework",
   "homepage": "https://authme.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/AuthMe01/authme-nfc-ios.git",
-    "tag": "'0.9.0'"
+    "tag": "0.9.0"
   },
   "ios": {
     "vendored_frameworks": "AuthmeNFCKit.xcframework"
