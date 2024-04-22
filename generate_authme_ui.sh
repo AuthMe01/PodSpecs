@@ -23,11 +23,6 @@ cat <<EOF > AuthMeUI.podspec.json
   "ios": {
     "vendored_frameworks": "AuthMeUI.xcframework"
   },
-  "dependencies": {
-    "lottie-ios": [],
-    "AuthMe": [],
-    "AuthmeNFCKit": []
-  },
   "swift_version": "5"
 }
 EOF
