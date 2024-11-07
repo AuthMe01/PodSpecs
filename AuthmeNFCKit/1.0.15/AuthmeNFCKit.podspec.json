@@ -4,7 +4,10 @@
   "summary": "AuthmeNFCKit framework",
   "description": "AuthmeNFCKit Framework",
   "homepage": "https://authme.com",
-  "license": "BSD",
+  "license": {
+    "type": "BSD",
+    "file": "LICENSE"
+  },
   "authors": {
     "AuthMe-Team": "dev@authme.com"
   },
