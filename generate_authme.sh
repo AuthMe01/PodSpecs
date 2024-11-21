@@ -23,12 +23,10 @@ cat <<EOF > AuthMe.podspec.json
   "ios": {
     "vendored_frameworks": [
       "AuthMe.xcframework",
-      "OpenSSL.xcframework",
       "Algo.xcframework"
     ],
     "weak_frameworks": [
       "AuthMe",
-      "OpenSSL",
       "Algo"
     ]
   },
